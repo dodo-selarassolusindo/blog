@@ -8,6 +8,9 @@
     <menu id="6">
       <phrase id="menutext" value="News" />
     </menu>
+    <menu id="7">
+      <phrase id="menutext" value="Member Area" />
+    </menu>
     <menu id="1">
       <phrase id="menutext" value="Members" />
     </menu>
@@ -171,6 +174,9 @@
     </table>
     <table id="news">
       <phrase id="tblcaption" value="News" />
+    </table>
+    <table id="member_area">
+      <phrase id="tblcaption" value="Member Area" />
     </table>
   </project>
 </ew-language>

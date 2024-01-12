@@ -85,6 +85,7 @@ return [
     "userlevelpermissions" => \DI\create(Userlevelpermissions::class),
     "userlevels" => \DI\create(Userlevels::class),
     "news" => \DI\create(News::class),
+    "member_area" => \DI\create(MemberArea::class),
 
     // User table
     "usertable" => \DI\get("employees"),

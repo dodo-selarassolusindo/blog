@@ -31,7 +31,9 @@ $USER_LEVEL_PRIVS = [["{2118A31F-9792-4A53-A578-DD31894048F9}employees","-2","0"
     ["{2118A31F-9792-4A53-A578-DD31894048F9}userlevelpermissions","-2","0"],
     ["{2118A31F-9792-4A53-A578-DD31894048F9}userlevels","-2","0"],
     ["{2118A31F-9792-4A53-A578-DD31894048F9}news.php","-2","72"],
-    ["{2118A31F-9792-4A53-A578-DD31894048F9}news.php","0","0"]];
+    ["{2118A31F-9792-4A53-A578-DD31894048F9}news.php","0","0"],
+    ["{2118A31F-9792-4A53-A578-DD31894048F9}member_area.php","-2","0"],
+    ["{2118A31F-9792-4A53-A578-DD31894048F9}member_area.php","0","0"]];
 
 /**
  * Tables
@@ -49,4 +51,5 @@ $USER_LEVEL_TABLES = [["employees","employees","Members",true,"{2118A31F-9792-4A
     ["audittrail","audittrail","Log Activity",true,"{2118A31F-9792-4A53-A578-DD31894048F9}","audittraillist"],
     ["userlevelpermissions","userlevelpermissions","Permissions",true,"{2118A31F-9792-4A53-A578-DD31894048F9}","userlevelpermissionslist"],
     ["userlevels","userlevels","Level",true,"{2118A31F-9792-4A53-A578-DD31894048F9}","userlevelslist"],
-    ["news.php","news","News",true,"{2118A31F-9792-4A53-A578-DD31894048F9}","news"]];
+    ["news.php","news","News",true,"{2118A31F-9792-4A53-A578-DD31894048F9}","news"],
+    ["member_area.php","member_area","Member Area",true,"{2118A31F-9792-4A53-A578-DD31894048F9}","memberarea"]];
