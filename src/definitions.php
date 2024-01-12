@@ -84,6 +84,7 @@ return [
     "audittrail" => \DI\create(Audittrail::class),
     "userlevelpermissions" => \DI\create(Userlevelpermissions::class),
     "userlevels" => \DI\create(Userlevels::class),
+    "news" => \DI\create(News::class),
 
     // User table
     "usertable" => \DI\get("employees"),

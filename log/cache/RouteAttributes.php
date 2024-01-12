@@ -18,6 +18,7 @@
         clone $p['PHPMaker2024\\prj_membership\\Attributes\\Map'],
         clone $p['PHPMaker2024\\prj_membership\\Attributes\\Map'],
         clone $p['PHPMaker2024\\prj_membership\\Attributes\\Map'],
+        clone $p['PHPMaker2024\\prj_membership\\Attributes\\Map'],
         clone ($p['PHPMaker2024\\prj_membership\\Attributes\\Get'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('PHPMaker2024\\prj_membership\\Attributes\\Get')),
         clone $p['PHPMaker2024\\prj_membership\\Attributes\\Get'],
         clone $p['PHPMaker2024\\prj_membership\\Attributes\\Map'],
@@ -35,6 +36,11 @@
     [
         'PHPMaker2024\\prj_membership\\Attributes\\Map' => [
             'methods' => [
+                [
+                    'GET',
+                    'POST',
+                    'OPTIONS',
+                ],
                 [
                     'GET',
                     'POST',
@@ -194,6 +200,7 @@
                 '/employeesedit[/{EmployeeID}]',
                 '/employeesdelete[/{EmployeeID}]',
                 '/home[/{params:.*}]',
+                '/news[/{params:.*}]',
                 '/personaldata',
                 '/login[/{provider}]',
                 '/resetpassword',
@@ -226,6 +233,7 @@
                 'PHPMaker2024\\prj_membership\\EmployeesController:edit',
                 'PHPMaker2024\\prj_membership\\EmployeesController:delete',
                 'PHPMaker2024\\prj_membership\\HomeController:custom',
+                'PHPMaker2024\\prj_membership\\NewsController:custom',
                 'PHPMaker2024\\prj_membership\\OthersController:personaldata',
                 'PHPMaker2024\\prj_membership\\OthersController:login',
                 'PHPMaker2024\\prj_membership\\OthersController:resetpassword',
@@ -247,6 +255,9 @@
                 'PHPMaker2024\\prj_membership\\UserlevelsController:delete',
             ],
             'middleware' => [
+                [
+                    'PHPMaker2024\\prj_membership\\PermissionMiddleware',
+                ],
                 [
                     'PHPMaker2024\\prj_membership\\PermissionMiddleware',
                 ],
@@ -348,6 +359,7 @@
                 'edit.employees',
                 'delete.employees',
                 'custom.home',
+                'custom.news',
                 'personaldata',
                 'login',
                 'resetpassword',
@@ -369,6 +381,7 @@
                 'delete.userlevels',
             ],
             'options' => [
+                [],
                 [],
                 [],
                 [],
@@ -433,6 +446,7 @@
         $o[27],
         $o[28],
         $o[29],
+        $o[30],
     ],
     []
 );

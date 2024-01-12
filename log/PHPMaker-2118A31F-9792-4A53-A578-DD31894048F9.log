@@ -7,6 +7,7 @@ C:\xampp\htdocs\blog\controllers\AudittrailController.php
 C:\xampp\htdocs\blog\controllers\ControllerBase.php
 C:\xampp\htdocs\blog\controllers\EmployeesController.php
 C:\xampp\htdocs\blog\controllers\HomeController.php
+C:\xampp\htdocs\blog\controllers\NewsController.php
 C:\xampp\htdocs\blog\controllers\OthersController.php
 C:\xampp\htdocs\blog\controllers\UserlevelpermissionsController.php
 C:\xampp\htdocs\blog\controllers\UserlevelsController.php
@@ -37,6 +38,7 @@ C:\xampp\htdocs\blog\models\EmployeesView.php
 C:\xampp\htdocs\blog\models\Home.php
 C:\xampp\htdocs\blog\models\Login.php
 C:\xampp\htdocs\blog\models\Logout.php
+C:\xampp\htdocs\blog\models\News.php
 C:\xampp\htdocs\blog\models\PersonalData.php
 C:\xampp\htdocs\blog\models\Register.php
 C:\xampp\htdocs\blog\models\ResetPassword.php
@@ -206,6 +208,7 @@ C:\xampp\htdocs\blog\views\EmployeesView.php
 C:\xampp\htdocs\blog\views\Error.php
 C:\xampp\htdocs\blog\views\Home.php
 C:\xampp\htdocs\blog\views\Login.php
+C:\xampp\htdocs\blog\views\News.php
 C:\xampp\htdocs\blog\views\PersonalData.php
 C:\xampp\htdocs\blog\views\Register.php
 C:\xampp\htdocs\blog\views\ResetPassword.php

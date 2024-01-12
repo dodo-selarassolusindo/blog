@@ -5,6 +5,9 @@
     <menu id="2">
       <phrase id="menutext" value="Home" />
     </menu>
+    <menu id="6">
+      <phrase id="menutext" value="News" />
+    </menu>
     <menu id="1">
       <phrase id="menutext" value="Members" />
     </menu>
@@ -165,6 +168,9 @@
       <field id="userlevelname">
         <phrase id="fldcaption" value="User Level Name" />
       </field>
+    </table>
+    <table id="news">
+      <phrase id="tblcaption" value="News" />
     </table>
   </project>
 </ew-language>
