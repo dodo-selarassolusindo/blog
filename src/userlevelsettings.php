@@ -42,7 +42,7 @@ $USER_LEVEL_PRIVS = [["{2118A31F-9792-4A53-A578-DD31894048F9}employees","-2","0"
  * [4] string Project ID
  * [5] string URL (for OthersController::index)
  */
-$USER_LEVEL_TABLES = [["employees","employees","employees",true,"{2118A31F-9792-4A53-A578-DD31894048F9}","employeeslist"],
+$USER_LEVEL_TABLES = [["employees","employees","Members",true,"{2118A31F-9792-4A53-A578-DD31894048F9}","employeeslist"],
     ["home.php","home","Home",true,"{2118A31F-9792-4A53-A578-DD31894048F9}","home"],
     ["audittrail","audittrail","audittrail",true,"{2118A31F-9792-4A53-A578-DD31894048F9}","audittraillist"],
     ["userlevelpermissions","userlevelpermissions","userlevelpermissions",true,"{2118A31F-9792-4A53-A578-DD31894048F9}","userlevelpermissionslist"],

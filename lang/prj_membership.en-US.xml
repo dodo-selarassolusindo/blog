@@ -6,7 +6,7 @@
       <phrase id="menutext" value="Home" />
     </menu>
     <menu id="1">
-      <phrase id="menutext" value="employees" />
+      <phrase id="menutext" value="Members" />
     </menu>
     <menu id="5">
       <phrase id="menutext" value="userlevels" />
@@ -18,7 +18,7 @@
       <phrase id="menutext" value="audittrail" />
     </menu>
     <table id="employees">
-      <phrase id="tblcaption" value="employees" />
+      <phrase id="tblcaption" value="Members" />
       <field id="employeeid">
         <phrase id="fldcaption" value="Employee ID" />
       </field>
