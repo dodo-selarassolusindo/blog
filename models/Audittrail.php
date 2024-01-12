@@ -135,10 +135,10 @@ class Audittrail extends DbTable
             'x_DateTime', // Variable name
             'DateTime', // Name
             '`DateTime`', // Expression
-            CastDateFieldForLike("`DateTime`", 0, "DB"), // Basic search expression
+            CastDateFieldForLike("`DateTime`", 1, "DB"), // Basic search expression
             135, // Type
             19, // Size
-            0, // Date/Time format
+            1, // Date/Time format
             false, // Is upload field
             '`DateTime`', // Virtual expression
             false, // Is virtual
@@ -151,7 +151,7 @@ class Audittrail extends DbTable
         $this->DateTime->Raw = true;
         $this->DateTime->Nullable = false; // NOT NULL field
         $this->DateTime->Required = true; // Required field
-        $this->DateTime->DefaultErrorMessage = str_replace("%s", $GLOBALS["DATE_FORMAT"], $Language->phrase("IncorrectDate"));
+        $this->DateTime->DefaultErrorMessage = str_replace("%s", DateFormat(1), $Language->phrase("IncorrectDate"));
         $this->DateTime->SearchOperators = ["=", "<>", "IN", "NOT IN", "<", "<=", ">", ">=", "BETWEEN", "NOT BETWEEN"];
         $this->Fields['DateTime'] = &$this->DateTime;
 
